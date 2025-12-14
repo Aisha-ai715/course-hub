@@ -1,0 +1,104 @@
+.top-nav,
+.main-nav {
+    padding: 0 var(--common-padding);
+}
+
+.top-nav {
+    background-color: var(--teal);
+    height: 3.125rem;  
+    color: white;
+    justify-content: space-between;
+   
+}
+
+.top-nav_opening p {
+    font-size: 1.0625rem;
+    opacity: .6;
+}
+
+.vertical-line {
+    display: block;
+    background-color: white;
+    height: 1.5rem;
+    width: 1px;
+}
+
+.line_one {
+    margin-left: 1.25rem;
+}
+
+.go-clock,
+.location-icon {
+    color: white;
+    width: .8094rem;
+    height: 1.0625rem;
+    margin-right: 1.0775rem;
+    margin-left: 1.25rem;
+}
+
+.social-icons {
+    gap: 1.8125rem;
+    width: 19.1644rem;
+    height: 100%;
+    background-color: var(--vivid-orange);
+    padding-left: 1.1156rem;
+    padding-right: 3.125rem;
+    position: relative;
+}
+
+.teal-square {
+    display: block;
+    background-color: var(--teal);
+    width: 4px;
+    height: 3.125rem;
+    position: absolute;
+    right: .9381rem;
+}
+
+.line_two {
+    margin-left: 1.2419rem;
+}
+
+.social-icons_languages {
+    gap: 4.64px;
+}
+
+.social-icons_links {
+    gap: 1.9375rem;
+}
+
+.social-icons_links span {
+    gap: .875rem;
+    padding-right: 3.125rem;
+}
+
+.main-nav {
+    height: 4.5rem;
+    width: 100%;
+}
+
+.nav_list {
+    gap: 5px;
+}
+
+.main-nav-menu{
+    color: #0E2A46;
+    /* margin-left: 5.375rem; */
+    padding-left: 5.375rem;
+}
+
+.main-nav-menu ul {
+    gap: 2.75rem;
+}
+
+.main-nav-menu ul a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.0625rem;
+}
+
+.main-nav-info{
+    /* margin-left: 8.9356rem; */
+    padding-left: 8.9356rem;
+    gap: 1.375rem;
+}

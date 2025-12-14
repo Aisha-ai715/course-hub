@@ -1,0 +1,21 @@
+.about-card{
+    width: 26.5rem;
+    height: 25.8125rem;
+    border-radius: var(--primary-border-radious);
+    padding: 4.375rem 2.85rem 4.7813rem 2.5rem;
+    border: none;
+}
+
+.about-image, .about-card-title{
+    margin-bottom: 1.625rem;
+}
+
+.about-card-title{
+    font-size: 1.3125rem;
+    font-weight: bold;
+}
+
+.about-card-description{
+    font-size: var(--regular-fontsize);
+    font-weight: normal;
+}

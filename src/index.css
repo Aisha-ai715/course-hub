@@ -1,0 +1,184 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+QLD:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
+
+:root {
+	--headings-font: 'Epilogue', sans-serif;
+	--text-font: 'Sora', sans-serif;
+	--common-padding: 18.75rem;
+
+	--vivid-orange: #FF9500;
+	--teal: #00BEAE;
+	--floral: #FFF8F0;
+	--navy-blue: #0E2A46;
+
+	--primary-border-radious: 3.75rem;
+	--secondary-border-radious: 6.25rem;
+
+	--regular-fontsize: 1.0625rem
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 120rem;
+	width: 100%;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+	font-family: var(--headings-font);
+}
+
+p,a {
+	font-family: var(--text-font);
+}
+
+._flex {
+	display: flex;
+	align-items: center;
+}
+
+button {
+	border-radius: var(--primary-border-radious);
+	width: 8.2794rem;
+	height: 3.6875rem;
+	background-color: var(--vivid-orange);
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: .9375rem;
+}
+
+._absolute {
+	position: absolute;
+}
