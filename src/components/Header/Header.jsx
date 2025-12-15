@@ -13,7 +13,7 @@ import Search from "../../assets/images/Search.svg?react";
 import Person from "../../assets/images/Person.svg?react";
 import { Button } from '../Button/Button';
 
-export default function Header({content}) {
+export default function Header() {
     return (
         <header>
             <div className="top-nav _flex">
@@ -75,7 +75,7 @@ export default function Header({content}) {
                 <div className="main-nav-info _flex">
                     <Search />
                     <Person />
-                    <Button content={"Contact"}/>
+                    <Button content="Contact"/>
                 </div>
             </div>
         </header>

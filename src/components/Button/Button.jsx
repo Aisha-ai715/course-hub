@@ -1,7 +1,7 @@
 import React from 'react'
 
-export function Button({content}) {
+export function Button({content, width}) {
   return (
-    <button>{content}</button>
+    <button style={{width:width}}>{content}</button>
   )
 }

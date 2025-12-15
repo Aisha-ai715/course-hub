@@ -1,0 +1,60 @@
+.schoolnum-video {
+    max-height: 51.875rem;
+    padding: 10rem var(--common-padding) 7.5rem var(--common-padding);
+    background-image: url(../../assets/images/bgone.svg);
+}
+
+.video-img{
+    width: 1320px;
+    height: 550px;
+    background-color: #52595f;
+    border-radius: 3.125rem;
+    background-blend-mode: overlay;
+    background-image: url(../../assets/images/SchoolVideo.svg);
+}
+
+.schoolnum-closevideo {
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    background-color: white;
+    justify-content: center;
+    position: relative;
+    bottom: 340px;
+    left: 610px;   
+}
+
+
+#studentnum-total_part {
+    justify-content: center;
+    gap: 110px;
+    padding-bottom: 8.5rem;
+}
+
+.schoolnum-total {
+    text-align: center;
+}
+
+.schoolnum-icon {
+    margin-bottom: 1.8438rem;
+}
+
+.schoolnum_account {
+    font-size: 2.4375rem;
+    font-weight: bold;
+    color: var(--navy-blue);
+    margin-bottom: .6563rem;
+}
+
+.schoolnum_text{
+    font-size: 1.3125rem;
+    color: var(--navy-blue);
+    font-weight: normal;
+}
+
+.schoolnum-dotline {
+    width: 2px;
+    height: 10.125rem;
+    display: block;
+    border: 1px dotted var(--navy-blue);
+}

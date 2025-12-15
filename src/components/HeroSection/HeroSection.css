@@ -1,6 +1,5 @@
 .hero {
     background-color: var(--floral);
-    /* max-height: 50.3125rem; */
     gap: 1.1875rem;
 }
 
@@ -33,10 +32,6 @@
 .hero-right-browse {
     gap: 1.75rem;
     margin-bottom: 4.735rem;
-}
-
-.hero-right-browse #hero-right_browsebtn {
-    width: 12.0956rem;
 }
 
 .hero-browse_videos {

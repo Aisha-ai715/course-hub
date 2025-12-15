@@ -1,0 +1,68 @@
+.chooseus {
+    max-height: 43.45rem;
+    background-image: url(../../assets/images/bgtwo.svg);
+    gap: 8.1625rem;
+    height: 43.45rem;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    position: relative;
+}
+
+.chooseus-left {
+    padding-left: var(--common-padding);
+
+}
+
+.chooseus-birds {
+    left: 0;
+    top: 0;
+}
+
+.chooseus-why {
+    margin-bottom: .625rem;
+    gap: .5rem;
+}
+
+.choosus-why_p {
+    color: var(--vivid-orange);
+    font-size: 1.125rem;
+}
+
+.choosus-title {
+    font-size: 2.8125rem;
+    color: var(--navy-blue);
+    margin-bottom: .5837rem;
+    font-weight: bold;
+}
+
+.chooseus-text {
+    font-size: var(--regular-fontsize);
+    width: 33.8375rem;
+    margin-bottom: 1.2594rem;
+    font-weight: normal;
+    color: #333931;
+}
+
+.quality_text {
+    gap: .3438rem;
+}
+
+.quality_text p {
+    font-size: 1.25rem;
+    color: #191659;
+    font-weight: normal;
+}
+
+.chooseus-quality_one {
+    margin-bottom: 1.125rem;
+    gap: 2.9681rem;
+}
+
+.chooseus-quality_two {
+    gap: 4.0287rem;
+    margin-bottom: 1.9688rem;
+}
+
+Button #chooseus_findbtn {
+    background-color: var(--teal);
+}

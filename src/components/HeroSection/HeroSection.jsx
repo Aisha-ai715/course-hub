@@ -12,7 +12,7 @@ import Students from "../../assets/images/Students.svg?react";
 import VidepClose from "../../assets/images/VideoClose.svg?react";
 import { Button } from '../Button/Button';
 
-export default function HeroSection({ content }) {
+export default function HeroSection() {
   return (
     <section className="hero _flex">
       <div className="hero-right">
@@ -27,7 +27,7 @@ export default function HeroSection({ content }) {
             tempor incididunt ut labore et dolore magna aliqua.</p>
 
           <div className="hero-right-browse _flex">
-            <Button id="hero-right_browsebtn" content={"Browse Courses"} />
+            <Button content="Browse Courses" width="12.0956rem"/>
             <div className='hero-browse_videos _flex'>
               <div className="videoclose-circle _flex">
                 <VideoClose />
