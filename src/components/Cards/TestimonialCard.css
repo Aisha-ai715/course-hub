@@ -1,0 +1,38 @@
+.testmonial-card{
+    max-width: 25.4375rem;
+    height: 20.625rem;
+    border: 1px dashed #FF9500;
+    border-radius: .625rem;
+    padding: 2.5625rem 3.5394rem 2.0419rem 2rem;
+}
+
+.testemoial-card-stars {
+    margin-bottom: .8456rem;
+}
+
+.testemoial-card-text{
+    font-size: var(--regular-fontsize);
+    font-weight: normal;
+    width: 19.8981rem;
+    color: #333931;
+    line-height: 1.5;
+    margin-bottom: .9869rem;
+}
+
+.testimonial-card-person{
+    gap: .9375rem;
+    justify-content: flex-start;
+}
+
+.testimoial-info_name{
+    font-size: var(--regular-fontsize);
+    font-weight: bold;
+    color: var(--navy-blue);
+    margin-bottom: .875rem;
+}
+
+.testimonial-info_position{
+    font-size: .8125rem;
+    color: var(--teal);
+    font-weight: normal;
+}

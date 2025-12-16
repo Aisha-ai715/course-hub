@@ -1,0 +1,42 @@
+.testemonial{
+    background-color: white;
+    position: relative;
+    padding: 7.5rem var(--common-padding) 7.5rem 6rem;
+}
+
+.testimonial-sun{
+    right: 60px;
+    top: 30px;
+}
+
+.testimonial-secondary-title{
+    gap: .3rem;
+    justify-content: center;
+    margin-bottom: .625rem;
+}
+
+.testimonial-main-title {
+    font-size: 2.8125rem;
+    font-weight: bold;
+    color: var(--navy-blue);
+    margin-bottom: 3.4375rem;
+    text-align: center;
+}
+
+.testimonial-secondary-title, .testimonial-main-title {
+    position: relative;
+    left: 85px
+}
+
+.testimonial-users {
+    gap: 6.5rem;
+}
+
+.testimoial-users_cards{
+    gap: 3.1031rem;
+}
+
+.testemonial-cloud-img {
+    position: relative;
+    top: 46.89px;
+}

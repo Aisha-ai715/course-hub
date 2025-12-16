@@ -1,0 +1,45 @@
+.postcard {
+    width: 26.5rem;
+    height: 31.0194rem;
+    background-color: #eeeeee;
+    padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+    border-radius: .3125rem;
+}
+
+.postcard-image {
+    margin-bottom: 1.5313rem;
+}
+
+.postcard-date p,
+.postcard-comment_num p {
+    font-size: .9375rem;
+    color: #4D5756;
+    font-weight: normal;
+}
+
+.postcard-date,
+.postcard-comment_num {
+    gap: .5313rem;
+}
+
+.postcard-info {
+    gap: 1.3525rem;
+    margin-bottom: .9187rem;
+}
+
+.postcard-main-header {
+    margin-bottom: 1.2675rem;
+}
+
+.postcard-title {
+    line-height: 1.7;
+    color: var(--navy-blue);
+    text-decoration: none;
+    font-size: 1.1875rem;
+    font-family: var(--headings-font);
+    font-weight: 600;
+}
+
+.postcard-title:hover, .postcard-title:focus {
+    background-color: lightblue;
+}

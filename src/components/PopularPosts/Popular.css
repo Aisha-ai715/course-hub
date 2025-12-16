@@ -1,0 +1,49 @@
+.popular {
+    padding-bottom: 6.5313rem;
+}
+
+.popular-halfcircle{
+    position: relative;
+    top: 1.7087rem;
+}
+
+.popular-main{
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular-icons {
+    align-items: flex-start;
+    gap: 46.1362rem;
+}
+
+.popular-secondary-title {
+    gap: .3rem;
+    margin-bottom: .625rem;
+}
+
+.popular-secondary-title p {
+    color: var(--vivid-orange);
+    font-size: 1.125rem;
+    font-weight: normal;
+}
+
+.popular-main-title {
+    font-size: 2.8125rem;
+    color: var(--navy-blue);
+
+}
+
+.popular-header {
+    gap: 721.25px;
+    margin-bottom: 5rem;
+}
+
+.popular-allblog-btn {
+    position: relative;
+    top: 25px;
+}
+
+.popular-cards-posts {
+    gap: 1.5rem;
+}

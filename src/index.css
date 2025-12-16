@@ -155,8 +155,10 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
 	font-family: var(--headings-font);
+	font-weight: bold;
 }
 
 p,a {

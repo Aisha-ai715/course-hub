@@ -1,0 +1,40 @@
+.intructorcard {
+    position: relative;
+    width: 18.2813rem;
+    height: 25.6844rem;
+    background-color: white;
+    padding: 10px;
+    border-radius: .3125rem;
+}
+
+.soicalhandel {
+    right: 30px;
+    bottom: 90px;
+}
+
+.instructor-image {
+    margin-bottom: 1.5281rem;
+}
+
+.instuctorcard-name{
+    text-decoration: none;
+    font-family: var(--headings-font);
+    font-size: 1.3125rem;
+    color: var(--navy-blue);
+    font-weight: bold;
+}
+
+.instuctorcard-name:hover, .instuctorcard-name:focus {
+    background-color: lightblue;
+}
+
+.instructorcard-occopation{
+    font-size: var(--regular-fontsize);
+    color: var(--vivid-orange);
+    font-weight: normal;
+    margin-top: .75rem;
+}
+
+.intructorcard-info{
+    margin-left: 1.25rem;
+}

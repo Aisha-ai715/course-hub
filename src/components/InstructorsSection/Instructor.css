@@ -1,0 +1,35 @@
+.instructor {
+    background-image: url(../../assets/images/bgthree.svg);
+    height: 46.9656rem;
+    padding: 6.875rem var(--common-padding) 5.625rem var(--common-padding);
+}
+
+.instructor-secondary-title{
+    gap: .3rem;
+    margin-bottom: .625rem;
+}
+
+.instructor-secondary-title p{
+    font-size: 1.125rem;
+    color: var(--vivid-orange);
+    font-weight: normal;
+}
+
+.instructor-main-title{
+    font-size: 2.8125rem;
+    font-weight: bold;
+    color: var(--navy-blue);
+}
+
+.instructor-colletion{
+    gap: 1.5625rem;
+}
+
+.instuctor-main{
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+}
+
+.intructor-galary{
+    gap: 3.125rem;
+}

@@ -45,7 +45,7 @@ export default function ChooseUs() {
                     </div>
                 </div>
 
-                <Button content="Find Events" width="9.8244rem" id="chooseus_findbtn"/>
+                <Button content="Find Events" width="9.8244rem" background="var(--teal)"/>
 
             </div>
 
