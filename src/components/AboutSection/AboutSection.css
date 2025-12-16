@@ -37,8 +37,8 @@
     font-size: 1.5625rem;
     color: 17254E;
     background-color: white;
-    width: 21.2rem;
-    height: 5.875rem;
+    width: 100%;
+    padding: .9688rem 2.5rem;
     border-radius: 62.5rem;
     justify-content: center;
     gap: .7813rem;
@@ -58,7 +58,7 @@
 
 .about-right-info {
     color: var(--vivid-orange);
-    gap: .3rem;
+    gap: 4.8px;
     margin-bottom: .5781rem;
 }
 
@@ -71,7 +71,7 @@
     font-size: 2.8125rem;
     font-weight: bold;
     color: var(--navy-blue);
-    width: 40.9444rem;
+    max-width: 40.9444rem;
 }
 
 .about-right-title span {
@@ -82,7 +82,7 @@
     font-size: var(--regular-fontsize);
     color: #333931;
     margin-bottom: 1.915rem;
-    width: 38.7731rem;
+    max-width: 38.7731rem;
     line-height: 1.5;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .about-right-value div {
-    width: 17.3087rem;
+    max-width: 17.3087rem;
     height: 3.375rem;
     background-color: #F3F5F5;
     border-radius: .3125rem;
@@ -100,6 +100,7 @@
     color: #191659;
     justify-content: center;
     gap: .4688rem;
+    width: 100%;
 }
 
 .first_value {

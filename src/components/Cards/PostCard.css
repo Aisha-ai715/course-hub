@@ -1,9 +1,10 @@
 .postcard {
-    width: 26.5rem;
-    height: 31.0194rem;
+    max-width: 26.5rem;
+    max-height: 31.0194rem;
     background-color: #eeeeee;
     padding: 1.875rem 1.875rem 2.5rem 1.875rem;
     border-radius: .3125rem;
+    width: 100%;
 }
 
 .postcard-image {

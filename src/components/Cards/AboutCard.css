@@ -1,9 +1,10 @@
 .about-card{
-    width: 26.5rem;
+    max-width: 26.5rem;
     height: 25.8125rem;
     border-radius: var(--primary-border-radious);
     padding: 4.375rem 2.85rem 4.7813rem 2.5rem;
     border: none;
+    width: 100%;
 }
 
 .about-image, .about-card-title{

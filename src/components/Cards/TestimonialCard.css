@@ -13,7 +13,7 @@
 .testemoial-card-text{
     font-size: var(--regular-fontsize);
     font-weight: normal;
-    width: 19.8981rem;
+    max-width: 19.8981rem;
     color: #333931;
     line-height: 1.5;
     margin-bottom: .9869rem;

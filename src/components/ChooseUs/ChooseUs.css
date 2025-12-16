@@ -37,7 +37,7 @@
 
 .chooseus-text {
     font-size: var(--regular-fontsize);
-    width: 33.8375rem;
+    max-width: 33.8375rem;
     margin-bottom: 1.2594rem;
     font-weight: normal;
     color: #333931;

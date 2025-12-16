@@ -1,10 +1,11 @@
 .intructorcard {
     position: relative;
-    width: 18.2813rem;
+    max-width: 18.2813rem;
     height: 25.6844rem;
     background-color: white;
     padding: 10px;
     border-radius: .3125rem;
+    width: 100%;
 }
 
 .soicalhandel {

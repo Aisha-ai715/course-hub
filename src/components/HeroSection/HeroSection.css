@@ -19,14 +19,16 @@
     color: #17254E;
     font-size: 3.75rem;
     font-weight: 700;
-    width: 539.62px;
+    max-width: 33.7263rem;
+    width: 100%;
 }
 
 .hero-text {
     font-size: var(--regular-fontsize);
     color: #333931;
-    width: 38.7731rem;
+    max-width: 38.7731rem;
     margin-bottom: 1.9156rem;
+    width: 100%;
 }
 
 .hero-right-browse {
@@ -73,7 +75,7 @@
 
 .hero-left_students {
     background-color: white;
-    width: 21.2rem;
+    max-width: 21.2rem;
     height: 5.875rem;
     border-radius: var(--primary-border-radious);
     font-size: 1.5625rem;
@@ -94,7 +96,7 @@
 
 .hero_couses_rate {
     background-color: white;
-    width: 14.9319rem;
+    max-width: 14.9319rem;
     height: 6.25rem;
     border-radius: var(--primary-border-radious);
     flex-direction: column;
