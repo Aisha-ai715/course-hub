@@ -7,6 +7,7 @@ import ChooseUs from '../../components/ChooseUs/ChooseUs'
 import Testimonial from '../../components/TestimonialSection/Testimonial'
 import Instructor from '../../components/InstructorsSection/Instructor'
 import Popular from '../../components/PopularPosts/Popular'
+import Footer from '../../components/Footer/Footer'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Instructor />
         <Popular />
       </main>
+      <Footer />
     </div>
   )
 }
